@@ -1,0 +1,3951 @@
+- name: colligo01-dev-uw2
+  shortname: colligo01devuw2
+  cloudproviderregion: us-west-2
+  cloudtype: rosa
+  environment: dev
+  region: uw2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos01-dev-va6
+  shortname: ethos01devva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: dev
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos01-prod-va6
+  shortname: ethos01prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos01-stage-irl1
+  shortname: ethos01stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: aws
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos01-stage-or2
+  shortname: ethos01stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: aws
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos01-stage-va6
+  shortname: ethos01stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos02-prod-or2
+  shortname: ethos02prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: aws
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos02-prod-va6
+  shortname: ethos02prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos02-stage-irl1
+  shortname: ethos02stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: aws
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos02-stage-or2
+  shortname: ethos02stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: aws
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos02-stage-va6
+  shortname: ethos02stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos03-stage-va6
+  shortname: ethos03stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos05-dev-va7
+  shortname: ethos05devva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: dev
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos05-prod-va7
+  shortname: ethos05prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos05-stage-va7
+  shortname: ethos05stageva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos08-prod-va7
+  shortname: ethos08prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos09-prod-va7
+  shortname: ethos09prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos10-prod-va6
+  shortname: ethos10prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos10-prod-va7
+  shortname: ethos10prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-dev-or2
+  shortname: ethos101devor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: dev
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-dev-va6
+  shortname: ethos101devva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: dev
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-dev-va7
+  shortname: ethos101devva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: dev
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-prod-aus3
+  shortname: ethos101prodaus3
+  cloudproviderregion: ap-southeast-2
+  cloudtype: eks
+  environment: prod
+  region: aus3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-prod-fra8
+  shortname: ethos101prodfra8
+  cloudproviderregion: eu-west-3
+  cloudtype: eks
+  environment: prod
+  region: fra8
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-prod-gbr11
+  shortname: ethos101prodgbr11
+  cloudproviderregion: eu-west-2
+  cloudtype: eks
+  environment: prod
+  region: gbr11
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-prod-ind1
+  shortname: ethos101prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: eks
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-prod-irl1
+  shortname: ethos101prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-prod-jpn3
+  shortname: ethos101prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-prod-or2
+  shortname: ethos101prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-prod-sgp3
+  shortname: ethos101prodsgp3
+  cloudproviderregion: ap-southeast-1
+  cloudtype: eks
+  environment: prod
+  region: sgp3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-prod-va6
+  shortname: ethos101prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-stage-or2
+  shortname: ethos101stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos101-stage-va6
+  shortname: ethos101stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos102-prod-irl1
+  shortname: ethos102prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos102-prod-or2
+  shortname: ethos102prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos102-prod-va6
+  shortname: ethos102prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos102-stage-va6
+  shortname: ethos102stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos103-prod-aus3
+  shortname: ethos103prodaus3
+  cloudproviderregion: ap-southeast-2
+  cloudtype: eks
+  environment: prod
+  region: aus3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos103-prod-irl1
+  shortname: ethos103prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos103-prod-or2
+  shortname: ethos103prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos103-prod-va6
+  shortname: ethos103prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos103-stage-or2
+  shortname: ethos103stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos103-stage-va6
+  shortname: ethos103stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos104-prod-or2
+  shortname: ethos104prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos104-prod-va6
+  shortname: ethos104prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos104-stage-va6
+  shortname: ethos104stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos105-prod-or2
+  shortname: ethos105prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos105-prod-va6
+  shortname: ethos105prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos105-stage-or2
+  shortname: ethos105stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos106-prod-or2
+  shortname: ethos106prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos106-prod-va6
+  shortname: ethos106prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos107-prod-or2
+  shortname: ethos107prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos107-prod-va6
+  shortname: ethos107prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos108-prod-or2
+  shortname: ethos108prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos108-prod-va6
+  shortname: ethos108prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos109-prod-or2
+  shortname: ethos109prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos109-prod-va6
+  shortname: ethos109prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-dev-or1
+  shortname: ethos11devor1
+  cloudproviderregion: or1
+  cloudtype: datacenter
+  environment: dev
+  region: or1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-dev-va7
+  shortname: ethos11devva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: dev
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-aus3
+  shortname: ethos11prodaus3
+  cloudproviderregion: ap-southeast-2
+  cloudtype: aws
+  environment: prod
+  region: aus3
+  tags:
+    onboarding: "true"
+    scaling: "on"
+- name: ethos11-prod-aus5
+  shortname: ethos11prodaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: prod
+  region: aus5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-can2
+  shortname: ethos11prodcan2
+  cloudproviderregion: canadacentral
+  cloudtype: azure
+  environment: prod
+  region: can2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-gbr2
+  shortname: ethos11prodgbr2
+  cloudproviderregion: gbr2
+  cloudtype: datacenter
+  environment: prod
+  region: gbr2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-gbr9
+  shortname: ethos11prodgbr9
+  cloudproviderregion: uksouth
+  cloudtype: azure
+  environment: prod
+  region: gbr9
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-ind1
+  shortname: ethos11prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: aws
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-prod-ind2
+  shortname: ethos11prodind2
+  cloudproviderregion: centralindia
+  cloudtype: azure
+  environment: prod
+  region: ind2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-irl1
+  shortname: ethos11prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: aws
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-prod-jpn3
+  shortname: ethos11prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: aws
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-prod-nld1
+  shortname: ethos11prodnld1
+  cloudproviderregion: nld1
+  cloudtype: datacenter
+  environment: prod
+  region: nld1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-nld2
+  shortname: ethos11prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-or1
+  shortname: ethos11prodor1
+  cloudproviderregion: or1
+  cloudtype: datacenter
+  environment: prod
+  region: or1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-or2
+  shortname: ethos11prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: aws
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-prod-sgp2
+  shortname: ethos11prodsgp2
+  cloudproviderregion: sgp2
+  cloudtype: datacenter
+  environment: prod
+  region: sgp2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-sgp3
+  shortname: ethos11prodsgp3
+  cloudproviderregion: ap-southeast-1
+  cloudtype: aws
+  environment: prod
+  region: sgp3
+  tags:
+    onboarding: "true"
+    scaling: "on"
+- name: ethos11-prod-va10
+  shortname: ethos11prodva10
+  cloudproviderregion: va10
+  cloudtype: datacenter
+  environment: prod
+  region: va10
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-prod-va6
+  shortname: ethos11prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-prod-va7
+  shortname: ethos11prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-stage-aus5
+  shortname: ethos11stageaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: stage
+  region: aus5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-stage-irl1
+  shortname: ethos11stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: aws
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-stage-jpn3
+  shortname: ethos11stagejpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: aws
+  environment: stage
+  region: jpn3
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-stage-nld2
+  shortname: ethos11stagenld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: stage
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-stage-or1
+  shortname: ethos11stageor1
+  cloudproviderregion: or1
+  cloudtype: datacenter
+  environment: stage
+  region: or1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-stage-or2
+  shortname: ethos11stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: aws
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-stage-ut1
+  shortname: ethos11stageut1
+  cloudproviderregion: ut1
+  cloudtype: datacenter
+  environment: stage
+  region: ut1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-stage-va6
+  shortname: ethos11stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos11-stage-va7
+  shortname: ethos11stageva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-tgelter-or1
+  shortname: ethos11tgelteror1
+  cloudproviderregion: or1
+  cloudtype: datacenter
+  environment: stage
+  region: or1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos11-thrash-or1
+  shortname: ethos11thrashor1
+  cloudproviderregion: or1
+  cloudtype: datacenter
+  environment: thrash
+  region: or1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos110-prod-or2
+  shortname: ethos110prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos110-prod-va6
+  shortname: ethos110prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos111-prod-irl1
+  shortname: ethos111prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos111-prod-jpn3
+  shortname: ethos111prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos111-prod-or2
+  shortname: ethos111prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos111-prod-va6
+  shortname: ethos111prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos111-stage-irl1
+  shortname: ethos111stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos111-stage-jpn3
+  shortname: ethos111stagejpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: stage
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos111-stage-or2
+  shortname: ethos111stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos112-prod-or2
+  shortname: ethos112prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos112-prod-va6
+  shortname: ethos112prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos112-stage-va6
+  shortname: ethos112stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos113-prod-or2
+  shortname: ethos113prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos113-prod-va6
+  shortname: ethos113prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos113-stage-va6
+  shortname: ethos113stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos113-stage-va7
+  shortname: ethos113stageva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos114-prod-va6
+  shortname: ethos114prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos115-prod-va6
+  shortname: ethos115prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos116-prod-va6
+  shortname: ethos116prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos117-prod-va6
+  shortname: ethos117prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos118-prod-va6
+  shortname: ethos118prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos119-prod-va6
+  shortname: ethos119prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-aus5
+  shortname: ethos12prodaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: prod
+  region: aus5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-can2
+  shortname: ethos12prodcan2
+  cloudproviderregion: canadacentral
+  cloudtype: azure
+  environment: prod
+  region: can2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-gbr2
+  shortname: ethos12prodgbr2
+  cloudproviderregion: gbr2
+  cloudtype: datacenter
+  environment: prod
+  region: gbr2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-gbr9
+  shortname: ethos12prodgbr9
+  cloudproviderregion: uksouth
+  cloudtype: azure
+  environment: prod
+  region: gbr9
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-ind2
+  shortname: ethos12prodind2
+  cloudproviderregion: centralindia
+  cloudtype: azure
+  environment: prod
+  region: ind2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-irl1
+  shortname: ethos12prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: aws
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-jpn3
+  shortname: ethos12prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: aws
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "true"
+    scaling: "on"
+- name: ethos12-prod-nld1
+  shortname: ethos12prodnld1
+  cloudproviderregion: nld1
+  cloudtype: datacenter
+  environment: prod
+  region: nld1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-nld2
+  shortname: ethos12prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-or1
+  shortname: ethos12prodor1
+  cloudproviderregion: or1
+  cloudtype: datacenter
+  environment: prod
+  region: or1
+  tags:
+    onboarding: "off"
+    scaling: "on"
+- name: ethos12-prod-or2
+  shortname: ethos12prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: aws
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "true"
+    scaling: "on"
+- name: ethos12-prod-sgp2
+  shortname: ethos12prodsgp2
+  cloudproviderregion: sgp2
+  cloudtype: datacenter
+  environment: prod
+  region: sgp2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-prod-va6
+  shortname: ethos12prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos12-prod-va7
+  shortname: ethos12prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-stage-aus5
+  shortname: ethos12stageaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: stage
+  region: aus5
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos12-stage-nld2
+  shortname: ethos12stagenld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: stage
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos12-stage-va6
+  shortname: ethos12stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos12-stage-va7
+  shortname: ethos12stageva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos120-prod-va6
+  shortname: ethos120prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-aus5
+  shortname: ethos13prodaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: prod
+  region: aus5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-can2
+  shortname: ethos13prodcan2
+  cloudproviderregion: canadacentral
+  cloudtype: azure
+  environment: prod
+  region: can2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-che2
+  shortname: ethos13prodche2
+  cloudproviderregion: switzerlandnorth
+  cloudtype: azure
+  environment: prod
+  region: che2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-deu6
+  shortname: ethos13proddeu6
+  cloudproviderregion: germanywestcentral
+  cloudtype: azure
+  environment: prod
+  region: deu6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-gbr9
+  shortname: ethos13prodgbr9
+  cloudproviderregion: uksouth
+  cloudtype: azure
+  environment: prod
+  region: gbr9
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-ind2
+  shortname: ethos13prodind2
+  cloudproviderregion: centralindia
+  cloudtype: azure
+  environment: prod
+  region: ind2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-jpn4
+  shortname: ethos13prodjpn4
+  cloudproviderregion: japaneast
+  cloudtype: azure
+  environment: prod
+  region: jpn4
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-nld2
+  shortname: ethos13prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-sgp5
+  shortname: ethos13prodsgp5
+  cloudproviderregion: southeastasia
+  cloudtype: azure
+  environment: prod
+  region: sgp5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-va7
+  shortname: ethos13prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-prod-wa1
+  shortname: ethos13prodwa1
+  cloudproviderregion: westus2
+  cloudtype: azure
+  environment: prod
+  region: wa1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos13-stage-va7
+  shortname: ethos13stageva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos14-prod-aus5
+  shortname: ethos14prodaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: prod
+  region: aus5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos14-prod-deu6
+  shortname: ethos14proddeu6
+  cloudproviderregion: germanywestcentral
+  cloudtype: azure
+  environment: prod
+  region: deu6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos14-prod-nld2
+  shortname: ethos14prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos14-prod-sgp5
+  shortname: ethos14prodsgp5
+  cloudproviderregion: southeastasia
+  cloudtype: azure
+  environment: prod
+  region: sgp5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos14-prod-va7
+  shortname: ethos14prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos14-prod-wa1
+  shortname: ethos14prodwa1
+  cloudproviderregion: westus2
+  cloudtype: azure
+  environment: prod
+  region: wa1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos14-stage-va7
+  shortname: ethos14stageva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos15-prod-aus5
+  shortname: ethos15prodaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: prod
+  region: aus5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos15-prod-deu6
+  shortname: ethos15proddeu6
+  cloudproviderregion: germanywestcentral
+  cloudtype: azure
+  environment: prod
+  region: deu6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos15-prod-nld2
+  shortname: ethos15prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos15-prod-va7
+  shortname: ethos15prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos15-prod-wa1
+  shortname: ethos15prodwa1
+  cloudproviderregion: westus2
+  cloudtype: azure
+  environment: prod
+  region: wa1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos15-stage-va7
+  shortname: ethos15stageva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos16-prod-nld2
+  shortname: ethos16prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos16-prod-va7
+  shortname: ethos16prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos16-prod-wa1
+  shortname: ethos16prodwa1
+  cloudproviderregion: westus2
+  cloudtype: azure
+  environment: prod
+  region: wa1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos17-prod-nld2
+  shortname: ethos17prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos17-prod-va7
+  shortname: ethos17prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos18-prod-nld2
+  shortname: ethos18prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos18-prod-va7
+  shortname: ethos18prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos19-prod-va7
+  shortname: ethos19prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos20-prod-va7
+  shortname: ethos20prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos20-prod-wa1
+  shortname: ethos20prodwa1
+  cloudproviderregion: westus2
+  cloudtype: azure
+  environment: prod
+  region: wa1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos200-stage-va6
+  shortname: ethos200stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos21-prod-aus5
+  shortname: ethos21prodaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: prod
+  region: aus5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos21-prod-can2
+  shortname: ethos21prodcan2
+  cloudproviderregion: canadacentral
+  cloudtype: azure
+  environment: prod
+  region: can2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos21-prod-gbr9
+  shortname: ethos21prodgbr9
+  cloudproviderregion: uksouth
+  cloudtype: azure
+  environment: prod
+  region: gbr9
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos21-prod-ind2
+  shortname: ethos21prodind2
+  cloudproviderregion: centralindia
+  cloudtype: azure
+  environment: prod
+  region: ind2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos21-prod-nld2
+  shortname: ethos21prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos21-stage-nld2
+  shortname: ethos21stagenld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: stage
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos21-stage-va7
+  shortname: ethos21stageva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos22-prod-nld2
+  shortname: ethos22prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos22-prod-va7
+  shortname: ethos22prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos23-prod-va7
+  shortname: ethos23prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos300-prod-va6
+  shortname: ethos300prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos34-prod-va7
+  shortname: ethos34prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "off"
+    scaling: "off"
+- name: ethos340-prod-or2
+  shortname: ethos340prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos340-prod-va6
+  shortname: ethos340prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos340-stage-va6
+  shortname: ethos340stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos341-prod-va6
+  shortname: ethos341prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos35-prod-va7
+  shortname: ethos35prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos351-prod-va6
+  shortname: ethos351prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos36-prod-va7
+  shortname: ethos36prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos37-prod-va7
+  shortname: ethos37prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos38-prod-aus5
+  shortname: ethos38prodaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: prod
+  region: aus5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos38-prod-nld2
+  shortname: ethos38prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos38-prod-va7
+  shortname: ethos38prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos39-prod-va7
+  shortname: ethos39prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos40-prod-va7
+  shortname: ethos40prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos41-prod-aus5
+  shortname: ethos41prodaus5
+  cloudproviderregion: australiaeast
+  cloudtype: azure
+  environment: prod
+  region: aus5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos41-prod-nld2
+  shortname: ethos41prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos41-prod-va7
+  shortname: ethos41prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos41-stage-va7
+  shortname: ethos41stageva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos42-prod-nld2
+  shortname: ethos42prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos42-prod-va7
+  shortname: ethos42prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos43-prod-nld2
+  shortname: ethos43prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos43-prod-va7
+  shortname: ethos43prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos44-prod-va7
+  shortname: ethos44prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos45-prod-va7
+  shortname: ethos45prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "off"
+    scaling: "off"
+- name: ethos46-prod-va7
+  shortname: ethos46prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "off"
+    scaling: "off"
+- name: ethos47-prod-va7
+  shortname: ethos47prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos48-prod-va7
+  shortname: ethos48prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos49-prod-va7
+  shortname: ethos49prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos49-sbx-va6
+  shortname: ethos49sbxva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: sbx
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos499-sbx-va6
+  shortname: ethos499sbxva6
+  cloudproviderregion: ""
+  cloudtype: eks
+  environment: sbx
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos50-prod-va7
+  shortname: ethos50prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-dev-irl1
+  shortname: ethos501devirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: dev
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-dev-va6
+  shortname: ethos501devva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: dev
+  region: va6
+  tags:
+    onboarding: "true"
+    scaling: "on"
+- name: ethos501-prod-aus3
+  shortname: ethos501prodaus3
+  cloudproviderregion: ap-southeast-2
+  cloudtype: eks
+  environment: prod
+  region: aus3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-prod-fra8
+  shortname: ethos501prodfra8
+  cloudproviderregion: eu-west-3
+  cloudtype: eks
+  environment: prod
+  region: fra8
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-prod-irl1
+  shortname: ethos501prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-prod-jpn3
+  shortname: ethos501prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-prod-or2
+  shortname: ethos501prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-prod-sgp3
+  shortname: ethos501prodsgp3
+  cloudproviderregion: ap-southeast-1
+  cloudtype: eks
+  environment: prod
+  region: sgp3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-prod-va6
+  shortname: ethos501prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-stage-irl1
+  shortname: ethos501stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-stage-jpn3
+  shortname: ethos501stagejpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: stage
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-stage-or2
+  shortname: ethos501stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos501-stage-va6
+  shortname: ethos501stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos502-prod-irl1
+  shortname: ethos502prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos502-prod-jpn3
+  shortname: ethos502prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos502-prod-or2
+  shortname: ethos502prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos502-prod-va6
+  shortname: ethos502prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos502-stage-irl1
+  shortname: ethos502stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos502-stage-jpn3
+  shortname: ethos502stagejpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: stage
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos502-stage-or2
+  shortname: ethos502stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos502-stage-va6
+  shortname: ethos502stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos503-prod-irl1
+  shortname: ethos503prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos503-prod-va6
+  shortname: ethos503prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos503-stage-irl1
+  shortname: ethos503stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos503-stage-va6
+  shortname: ethos503stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos504-stage-va6
+  shortname: ethos504stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos505-prod-va6
+  shortname: ethos505prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos505-stage-va6
+  shortname: ethos505stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos506-prod-irl1
+  shortname: ethos506prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos506-prod-jpn3
+  shortname: ethos506prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos506-prod-or2
+  shortname: ethos506prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos506-prod-va6
+  shortname: ethos506prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos506-stage-or2
+  shortname: ethos506stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos507-prod-va6
+  shortname: ethos507prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos508-prod-va6
+  shortname: ethos508prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos509-stage-or2
+  shortname: ethos509stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos51-dev-va6
+  shortname: ethos51devva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: dev
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos51-prod-va6
+  shortname: ethos51prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos51-sbx-va6
+  shortname: ethos51sbxva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: sbx
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos51-stage-va6
+  shortname: ethos51stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos52-prod-va7
+  shortname: ethos52prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos52-sbx-va6
+  shortname: ethos52sbxva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: sbx
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos53-dev-va6
+  shortname: ethos53devva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: dev
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos53-prod-or2
+  shortname: ethos53prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: aws
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos53-prod-va7
+  shortname: ethos53prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos53-stage-or2
+  shortname: ethos53stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: aws
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos54-prod-va6
+  shortname: ethos54prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos54-prod-va7
+  shortname: ethos54prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos54-stage-va6
+  shortname: ethos54stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos551-dev-va6
+  shortname: ethos551devva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: dev
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos551-prod-va6
+  shortname: ethos551prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos601-dev-va6
+  shortname: ethos601devva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: dev
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos601-prod-irl1
+  shortname: ethos601prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "off"
+    scaling: "on"
+- name: ethos601-prod-jpn3
+  shortname: ethos601prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos601-prod-va6
+  shortname: ethos601prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos601-stage-irl1
+  shortname: ethos601stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos601-stage-jpn3
+  shortname: ethos601stagejpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: stage
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos601-stage-va6
+  shortname: ethos601stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos602-prod-irl1
+  shortname: ethos602prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos602-prod-jpn3
+  shortname: ethos602prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos602-prod-va6
+  shortname: ethos602prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos602-stage-irl1
+  shortname: ethos602stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos602-stage-jpn3
+  shortname: ethos602stagejpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: stage
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos602-stage-va6
+  shortname: ethos602stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos603-prod-va6
+  shortname: ethos603prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos604-stage-va6
+  shortname: ethos604stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos605-prod-va6
+  shortname: ethos605prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: ethos61-dev-va7
+  shortname: ethos61devva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: dev
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos61-prod-nld2
+  shortname: ethos61prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos61-prod-va7
+  shortname: ethos61prodva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos61-stage-nld2
+  shortname: ethos61stagenld2
+  cloudproviderregion: westeurope
+  cloudtype: azure
+  environment: stage
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos61-stage-va7
+  shortname: ethos61stageva7
+  cloudproviderregion: eastus2
+  cloudtype: azure
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos651-prod-irl1
+  shortname: ethos651prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos651-prod-jpn3
+  shortname: ethos651prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos651-prod-va6
+  shortname: ethos651prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos651-stage-irl1
+  shortname: ethos651stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos651-stage-va6
+  shortname: ethos651stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos700-prod-aus3
+  shortname: ethos700prodaus3
+  cloudproviderregion: ap-southeast-2
+  cloudtype: rosa
+  environment: prod
+  region: aus3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos700-prod-ind1
+  shortname: ethos700prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: rosa
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos700-prod-irl1
+  shortname: ethos700prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: rosa
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos700-prod-jpn3
+  shortname: ethos700prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: rosa
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos700-prod-or2
+  shortname: ethos700prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: rosa
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos700-prod-sgp3
+  shortname: ethos700prodsgp3
+  cloudproviderregion: ap-southeast-1
+  cloudtype: rosa
+  environment: prod
+  region: sgp3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos700-prod-va6
+  shortname: ethos700prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos700-stage-va6
+  shortname: ethos700stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos701-dev-va6
+  shortname: ethos701devva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos701-prod-aus3
+  shortname: ethos701prodaus3
+  cloudproviderregion: ap-southeast-2
+  cloudtype: rosa
+  environment: prod
+  region: aus3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos701-prod-ind1
+  shortname: ethos701prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: rosa
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos701-prod-irl1
+  shortname: ethos701prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: rosa
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos701-prod-jpn3
+  shortname: ethos701prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: rosa
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos701-prod-or2
+  shortname: ethos701prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: rosa
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos701-prod-sgp3
+  shortname: ethos701prodsgp3
+  cloudproviderregion: ap-southeast-1
+  cloudtype: rosa
+  environment: prod
+  region: sgp3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos701-prod-va6
+  shortname: ethos701prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos701-stage-va6
+  shortname: ethos701stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos702-prod-va6
+  shortname: ethos702prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos702-stage-va6
+  shortname: ethos702stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos703-prod-va6
+  shortname: ethos703prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos703-stage-va6
+  shortname: ethos703stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos704-prod-va6
+  shortname: ethos704prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos704-stage-va6
+  shortname: ethos704stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos705-prod-va6
+  shortname: ethos705prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos705-stage-va6
+  shortname: ethos705stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos706-prod-va6
+  shortname: ethos706prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos706-stage-va6
+  shortname: ethos706stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos707-prod-va6
+  shortname: ethos707prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos707-stage-va6
+  shortname: ethos707stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos708-prod-va6
+  shortname: ethos708prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos709-prod-va6
+  shortname: ethos709prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: rosa
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos831-prod-irl1
+  shortname: ethos831prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos831-prod-or2
+  shortname: ethos831prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos831-prod-sgp3
+  shortname: ethos831prodsgp3
+  cloudproviderregion: ap-southeast-1
+  cloudtype: eks
+  environment: prod
+  region: sgp3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos831-prod-va6
+  shortname: ethos831prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos832-prod-va6
+  shortname: ethos832prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos833-prod-va6
+  shortname: ethos833prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos841-prod-or2
+  shortname: ethos841prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos851-prod-oh2
+  shortname: ethos851prodoh2
+  cloudproviderregion: us-east-2
+  cloudtype: eks
+  environment: prod
+  region: oh2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos851-prod-or2
+  shortname: ethos851prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos851-prod-va6
+  shortname: ethos851prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos851-stage-or2
+  shortname: ethos851stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos852-prod-or2
+  shortname: ethos852prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "off"
+    scaling: "on"
+- name: ethos852-prod-va6
+  shortname: ethos852prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos853-prod-or2
+  shortname: ethos853prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "off"
+    scaling: "off"
+- name: ethos853-prod-va6
+  shortname: ethos853prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos854-prod-or2
+  shortname: ethos854prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos871-stage-va6
+  shortname: ethos871stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos872-prod-ind1
+  shortname: ethos872prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: eks
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos872-prod-irl3
+  shortname: ethos872prodirl3
+  cloudproviderregion: northeurope
+  cloudtype: aks
+  environment: prod
+  region: irl3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos872-prod-nld2
+  shortname: ethos872prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: aks
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos872-prod-or2
+  shortname: ethos872prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos872-prod-va6
+  shortname: ethos872prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-aus3
+  shortname: ethos873prodaus3
+  cloudproviderregion: ap-southeast-2
+  cloudtype: eks
+  environment: prod
+  region: aus3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-deu1
+  shortname: ethos873proddeu1
+  cloudproviderregion: eu-central-1
+  cloudtype: eks
+  environment: prod
+  region: deu1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-ind1
+  shortname: ethos873prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: eks
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-irl1
+  shortname: ethos873prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-irl3
+  shortname: ethos873prodirl3
+  cloudproviderregion: northeurope
+  cloudtype: aks
+  environment: prod
+  region: irl3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-jpn3
+  shortname: ethos873prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-nld2
+  shortname: ethos873prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: aks
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-or2
+  shortname: ethos873prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-sgp5
+  shortname: ethos873prodsgp5
+  cloudproviderregion: southeastasia
+  cloudtype: aks
+  environment: prod
+  region: sgp5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-va6
+  shortname: ethos873prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-va7
+  shortname: ethos873prodva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos873-prod-wa1
+  shortname: ethos873prodwa1
+  cloudproviderregion: westus2
+  cloudtype: aks
+  environment: prod
+  region: wa1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos874-stage-deu1
+  shortname: ethos874stagedeu1
+  cloudproviderregion: eu-central-1
+  cloudtype: eks
+  environment: stage
+  region: deu1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos874-stage-nld2
+  shortname: ethos874stagenld2
+  cloudproviderregion: westeurope
+  cloudtype: aks
+  environment: stage
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos874-stage-va6
+  shortname: ethos874stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos881-stage-deu1
+  shortname: ethos881stagedeu1
+  cloudproviderregion: eu-central-1
+  cloudtype: eks
+  environment: stage
+  region: deu1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos881-stage-nld2
+  shortname: ethos881stagenld2
+  cloudproviderregion: westeurope
+  cloudtype: aks
+  environment: stage
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos881-stage-va6
+  shortname: ethos881stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos882-stage-deu1
+  shortname: ethos882stagedeu1
+  cloudproviderregion: eu-central-1
+  cloudtype: eks
+  environment: stage
+  region: deu1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos882-stage-nld2
+  shortname: ethos882stagenld2
+  cloudproviderregion: westeurope
+  cloudtype: aks
+  environment: stage
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos882-stage-va6
+  shortname: ethos882stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos883-prod-or2
+  shortname: ethos883prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos883-prod-va6
+  shortname: ethos883prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos884-prod-va6
+  shortname: ethos884prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos885-prod-irl3
+  shortname: ethos885prodirl3
+  cloudproviderregion: northeurope
+  cloudtype: aks
+  environment: prod
+  region: irl3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos885-prod-nld2
+  shortname: ethos885prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: aks
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos886-prod-nld2
+  shortname: ethos886prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: aks
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos887-prod-ind1
+  shortname: ethos887prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: eks
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos888-prod-ind1
+  shortname: ethos888prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: eks
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos889-prod-va7
+  shortname: ethos889prodva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos890-prod-va7
+  shortname: ethos890prodva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos891-prod-or2
+  shortname: ethos891prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos891-prod-va6
+  shortname: ethos891prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos892-prod-va6
+  shortname: ethos892prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos893-prod-or2
+  shortname: ethos893prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos893-prod-va6
+  shortname: ethos893prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos894-prod-or2
+  shortname: ethos894prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos895-prod-va7
+  shortname: ethos895prodva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos895-prod-wa1
+  shortname: ethos895prodwa1
+  cloudproviderregion: westus2
+  cloudtype: aks
+  environment: prod
+  region: wa1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos896-prod-va7
+  shortname: ethos896prodva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos897-prod-or2
+  shortname: ethos897prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos897-prod-va6
+  shortname: ethos897prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos898-prod-or2
+  shortname: ethos898prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos899-prod-deu1
+  shortname: ethos899proddeu1
+  cloudproviderregion: eu-central-1
+  cloudtype: eks
+  environment: prod
+  region: deu1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos899-prod-irl1
+  shortname: ethos899prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos900-prod-deu1
+  shortname: ethos900proddeu1
+  cloudproviderregion: eu-central-1
+  cloudtype: eks
+  environment: prod
+  region: deu1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos901-prod-irl3
+  shortname: ethos901prodirl3
+  cloudproviderregion: northeurope
+  cloudtype: aks
+  environment: prod
+  region: irl3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos901-prod-nld2
+  shortname: ethos901prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: aks
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos902-prod-nld2
+  shortname: ethos902prodnld2
+  cloudproviderregion: westeurope
+  cloudtype: aks
+  environment: prod
+  region: nld2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos903-prod-ind1
+  shortname: ethos903prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: eks
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos904-prod-ind1
+  shortname: ethos904prodind1
+  cloudproviderregion: ap-south-1
+  cloudtype: eks
+  environment: prod
+  region: ind1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos905-prod-aus3
+  shortname: ethos905prodaus3
+  cloudproviderregion: ap-southeast-2
+  cloudtype: eks
+  environment: prod
+  region: aus3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos906-prod-aus3
+  shortname: ethos906prodaus3
+  cloudproviderregion: ap-southeast-2
+  cloudtype: eks
+  environment: prod
+  region: aus3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos907-prod-jpn3
+  shortname: ethos907prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos908-prod-jpn3
+  shortname: ethos908prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: eks
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos909-prod-sgp5
+  shortname: ethos909prodsgp5
+  cloudproviderregion: southeastasia
+  cloudtype: aks
+  environment: prod
+  region: sgp5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos910-prod-sgp5
+  shortname: ethos910prodsgp5
+  cloudproviderregion: southeastasia
+  cloudtype: aks
+  environment: prod
+  region: sgp5
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos919-prod-va7
+  shortname: ethos919prodva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos920-prod-va7
+  shortname: ethos920prodva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos920-stage-va6
+  shortname: ethos920stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos993-stage-or2
+  shortname: ethos993stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos994-stage-or2
+  shortname: ethos994stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos995-prod-or2
+  shortname: ethos995prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos995-stage-or2
+  shortname: ethos995stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos996-prod-or2
+  shortname: ethos996prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "off"
+    scaling: "on"
+- name: ethos996-stage-or2
+  shortname: ethos996stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos997-prod-or2
+  shortname: ethos997prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos997-stage-or2
+  shortname: ethos997stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos998-prod-or2
+  shortname: ethos998prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos998-stage-or2
+  shortname: ethos998stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: ethos999-prod-or2
+  shortname: ethos999prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  tags:
+    onboarding: "true"
+    scaling: "true"
+- name: ethos999-stage-or2
+  shortname: ethos999stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion01-dev-or2
+  shortname: fusion01devor2
+  cloudproviderregion: us-west-2
+  cloudtype: rosa
+  environment: dev
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion01-dev-va7
+  shortname: fusion01devva7
+  cloudproviderregion: eastus2
+  cloudtype: aro
+  environment: dev
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion01-prod-ind2
+  shortname: fusion01prodind2
+  cloudproviderregion: centralindia
+  cloudtype: aro
+  environment: prod
+  region: ind2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion01-stage-or2
+  shortname: fusion01stageor2
+  cloudproviderregion: us-west-2
+  cloudtype: rosa
+  environment: stage
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion01-stage-va7
+  shortname: fusion01stageva7
+  cloudproviderregion: eastus2
+  cloudtype: aro
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion02-dev-va7
+  shortname: fusion02devva7
+  cloudproviderregion: eastus2
+  cloudtype: aro
+  environment: dev
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion02-stage-va7
+  shortname: fusion02stageva7
+  cloudproviderregion: eastus2
+  cloudtype: aro
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion03-dev-va7
+  shortname: fusion03devva7
+  cloudproviderregion: eastus2
+  cloudtype: aro
+  environment: dev
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion03-stage-va7
+  shortname: fusion03stageva7
+  cloudproviderregion: eastus2
+  cloudtype: aro
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion13-prod-che2
+  shortname: fusion13prodche2
+  cloudproviderregion: switzerlandnorth
+  cloudtype: aro
+  environment: prod
+  region: che2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion50-prod-va7
+  shortname: fusion50prodva7
+  cloudproviderregion: eastus2
+  cloudtype: aro
+  environment: prod
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: fusion50-stage-va7
+  shortname: fusion50-stage-va7
+  cloudproviderregion: eastus2
+  cloudtype: aro
+  environment: stage
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei01-dev-irl1
+  shortname: sensei01devirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: aws
+  environment: dev
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei01-prod-irl1
+  shortname: sensei01prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: aws
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei01-prod-jpn3
+  shortname: sensei01prodjpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: aws
+  environment: prod
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei01-prod-va6
+  shortname: sensei01prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei01-sbx-irl1
+  shortname: sensei01sbxirl1
+  cloudproviderregion: ""
+  cloudtype: aws
+  environment: sbx
+  region: irl1
+  tags:
+    onboarding: ""
+    scaling: ""
+- name: sensei01-stage-irl1
+  shortname: sensei01stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: aws
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei01-stage-jpn3
+  shortname: sensei01stagejpn3
+  cloudproviderregion: ap-northeast-1
+  cloudtype: aws
+  environment: stage
+  region: jpn3
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei01-stage-va6
+  shortname: sensei01stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: aws
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei51-sbx-or2
+  shortname: sensei51sbxor2
+  cloudproviderregion: us-west-2
+  cloudtype: aws
+  environment: sbx
+  region: or2
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei56-dev-irl1
+  shortname: sensei56devirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: dev
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei56-dev-va6
+  shortname: sensei56devva6
+  cloudproviderregion: ""
+  cloudtype: eks
+  environment: dev
+  region: va6
+  tags:
+    onboarding: ""
+    scaling: ""
+- name: sensei56-prod-irl1
+  shortname: sensei56prodirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: prod
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei56-prod-va6
+  shortname: sensei56prodva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: prod
+  region: va6
+  tags:
+    onboarding: "false"
+    scaling: "on"
+- name: sensei56-sbx-irl1
+  shortname: sensei56sbxirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: sbx
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei56-stage-irl1
+  shortname: sensei56stageirl1
+  cloudproviderregion: eu-west-1
+  cloudtype: eks
+  environment: stage
+  region: irl1
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: sensei56-stage-va6
+  shortname: sensei56stageva6
+  cloudproviderregion: us-east-1
+  cloudtype: eks
+  environment: stage
+  region: va6
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: uis01-dev-va7
+  shortname: uis0101devva7
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: dev
+  region: va7
+  tags:
+    onboarding: "on"
+    scaling: "on"
+- name: abctest1
+  shortname: abctest1
+  cloudproviderregion: us-west-2
+  cloudtype: rosa
+  environment: rps
+  region: uw2
+  tags:
+    onboarding: "on"
+    scaling: "on"
