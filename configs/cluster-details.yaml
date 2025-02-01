@@ -13608,3 +13608,24 @@
     - name: aep_uis
       ldapgroups:
         - DX_UNIFIED_IDENTITY_SERVICES_USERS:0a4b9dcd-2667-4338-ae15-8d7d5daff58d
+- name: abctest1
+  shortname: abctest1
+  cloudproviderregion: us-west-2
+  cloudtype: rosa
+  environment: rps
+  region: uw2
+  phase: Running
+  status: Active
+  tags:
+    onboarding: "on"
+    scaling: "on"
+  virtualnetworks:
+    - id: vpc-09c8f5b9d3dc4a07f
+      cidrs:
+        - 10.216.211.0/24
+        - 10.65.0.0/16
+        - 10.148.107.0/24
+  allowedonboardingteams:
+    - name: ethos-flex-admins
+      ldapgroups:
+        - Grp-CAAS-NEXT-ADMINS:2061d2c3-605e-4b74-a24f-de1444600eb3
