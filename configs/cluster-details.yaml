@@ -13629,3 +13629,186 @@
     - name: ethos-flex-admins
       ldapgroups:
         - Grp-CAAS-NEXT-ADMINS:2061d2c3-605e-4b74-a24f-de1444600eb3
+- name: ethos341-prod-or2
+  shortname: ethos341prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  phase: Running
+  status: Active
+  tags:
+    onboarding: "on"
+    scaling: "on"
+  virtualnetworks:
+    - id: vpc-044990492ba8aba50
+      cidrs:
+        - 10.186.12.0/22
+        - 10.43.0.0/16
+        - 100.64.0.0/16
+  allowedonboardingteams:
+    - name: ethos-flex-admins
+      ldapgroups:
+        - Grp-CAAS-NEXT-ADMINS:2061d2c3-605e-4b74-a24f-de1444600eb3
+    - name: ethos-admin
+      ldapgroups:
+        - Grp-TechOps-CST-Ethos:381d8035-bf17-46bb-8a9e-0283b5fa3dd5
+    - name: ethos-e2e-tests
+      ldapgroups:
+        - GRP-K8S-E2E:a8d23be8-fb34-48dc-be5b-41b95181be2e
+    - name: commerce
+      ldapgroups:
+        - Grp-Commerce-Ethos-Onboarders:33bb46cc-3b3c-41b2-a9c6-0c2b8d794056
+- name: ethos855-prod-or2
+  shortname: ethos855prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  phase: Running
+  status: Active
+  tags:
+    onboarding: "on"
+    scaling: "on"
+  virtualnetworks:
+    - id: vpc-0e03903b1773735f4
+      cidrs:
+        - 10.186.4.0/22
+        - 100.64.0.0/16
+        - 10.43.0.0/16
+  allowedonboardingteams:
+    - name: firefly
+      ldapgroups:
+        - Grp-Firefly-admins:0938c5d5-33be-4d2b-b99f-92d4ba8be95b
+        - Grp-Firefly-powerusers:92c9d848-6e4c-4369-b31a-238f113f34c9
+    - name: ethos-admin
+      ldapgroups:
+        - Grp-TechOps-CST-Ethos:381d8035-bf17-46bb-8a9e-0283b5fa3dd5
+    - name: ethos-e2e-tests
+      ldapgroups:
+        - GRP-K8S-E2E:a8d23be8-fb34-48dc-be5b-41b95181be2e
+    - name: ethos-flex-admins
+      ldapgroups:
+        - Grp-CAAS-NEXT-ADMINS:2061d2c3-605e-4b74-a24f-de1444600eb3
+- name: ethos341-prod-or2
+  shortname: ethos341prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  phase: Running
+  status: Active
+  tags:
+    onboarding: "on"
+    scaling: "on"
+  virtualnetworks:
+    - id: vpc-044990492ba8aba50
+      cidrs:
+        - 10.186.12.0/22
+        - 10.43.0.0/16
+        - 100.64.0.0/16
+  allowedonboardingteams:
+    - name: ethos-flex-admins
+      ldapgroups:
+        - Grp-CAAS-NEXT-ADMINS:2061d2c3-605e-4b74-a24f-de1444600eb3
+    - name: ethos-admin
+      ldapgroups:
+        - Grp-TechOps-CST-Ethos:381d8035-bf17-46bb-8a9e-0283b5fa3dd5
+    - name: ethos-e2e-tests
+      ldapgroups:
+        - GRP-K8S-E2E:a8d23be8-fb34-48dc-be5b-41b95181be2e
+    - name: commerce
+      ldapgroups:
+        - Grp-Commerce-Ethos-Onboarders:33bb46cc-3b3c-41b2-a9c6-0c2b8d794056
+- name: ethos855-prod-or2
+  shortname: ethos855prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  phase: Running
+  status: Active
+  tags:
+    onboarding: "on"
+    scaling: "on"
+  virtualnetworks:
+    - id: vpc-0e03903b1773735f4
+      cidrs:
+        - 10.186.4.0/22
+        - 100.64.0.0/16
+        - 10.43.0.0/16
+  allowedonboardingteams:
+    - name: firefly
+      ldapgroups:
+        - Grp-Firefly-admins:0938c5d5-33be-4d2b-b99f-92d4ba8be95b
+        - Grp-Firefly-powerusers:92c9d848-6e4c-4369-b31a-238f113f34c9
+    - name: ethos-admin
+      ldapgroups:
+        - Grp-TechOps-CST-Ethos:381d8035-bf17-46bb-8a9e-0283b5fa3dd5
+    - name: ethos-e2e-tests
+      ldapgroups:
+        - GRP-K8S-E2E:a8d23be8-fb34-48dc-be5b-41b95181be2e
+    - name: ethos-flex-admins
+      ldapgroups:
+        - Grp-CAAS-NEXT-ADMINS:2061d2c3-605e-4b74-a24f-de1444600eb3
+- name: ethos341-prod-or2
+  shortname: ethos341prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  phase: Running
+  status: Active
+  tags:
+    onboarding: "on"
+    scaling: "on"
+  virtualnetworks:
+    - id: vpc-044990492ba8aba50
+      cidrs:
+        - 10.186.12.0/22
+        - 10.43.0.0/16
+        - 100.64.0.0/16
+  allowedonboardingteams:
+    - name: ethos-flex-admins
+      ldapgroups:
+        - Grp-CAAS-NEXT-ADMINS:2061d2c3-605e-4b74-a24f-de1444600eb3
+    - name: ethos-admin
+      ldapgroups:
+        - Grp-TechOps-CST-Ethos:381d8035-bf17-46bb-8a9e-0283b5fa3dd5
+    - name: ethos-e2e-tests
+      ldapgroups:
+        - GRP-K8S-E2E:a8d23be8-fb34-48dc-be5b-41b95181be2e
+    - name: commerce
+      ldapgroups:
+        - Grp-Commerce-Ethos-Onboarders:33bb46cc-3b3c-41b2-a9c6-0c2b8d794056
+- name: ethos855-prod-or2
+  shortname: ethos855prodor2
+  cloudproviderregion: us-west-2
+  cloudtype: eks
+  environment: prod
+  region: or2
+  phase: Running
+  status: Active
+  tags:
+    onboarding: "on"
+    scaling: "on"
+  virtualnetworks:
+    - id: vpc-0e03903b1773735f4
+      cidrs:
+        - 10.186.4.0/22
+        - 100.64.0.0/16
+        - 10.43.0.0/16
+  allowedonboardingteams:
+    - name: firefly
+      ldapgroups:
+        - Grp-Firefly-admins:0938c5d5-33be-4d2b-b99f-92d4ba8be95b
+        - Grp-Firefly-powerusers:92c9d848-6e4c-4369-b31a-238f113f34c9
+    - name: ethos-admin
+      ldapgroups:
+        - Grp-TechOps-CST-Ethos:381d8035-bf17-46bb-8a9e-0283b5fa3dd5
+    - name: ethos-e2e-tests
+      ldapgroups:
+        - GRP-K8S-E2E:a8d23be8-fb34-48dc-be5b-41b95181be2e
+    - name: ethos-flex-admins
+      ldapgroups:
+        - Grp-CAAS-NEXT-ADMINS:2061d2c3-605e-4b74-a24f-de1444600eb3
