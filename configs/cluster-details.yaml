@@ -13831,3 +13831,41 @@
     - name: aep_uis
       ldapgroups:
         - DX_UNIFIED_IDENTITY_SERVICES_USERS:0a4b9dcd-2667-4338-ae15-8d7d5daff58d
+- name: abctest3
+  shortname: abctest3
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: ppp
+  region: va7
+  phase: Running
+  status: Active
+  tags:
+    onboarding: "on"
+    scaling: "on"
+  virtualnetworks:
+    - id: d114e1c5-d16f-4ac1-a42a-a27192620003
+      cidrs:
+        - 10.19.208.0/20
+  allowedonboardingteams:
+    - name: aep_uis
+      ldapgroups:
+        - DX_UNIFIED_IDENTITY_SERVICES_USERS:0a4b9dcd-2667-4338-ae15-8d7d5daff58d
+- name: abctest4
+  shortname: abctest4
+  cloudproviderregion: eastus2
+  cloudtype: aks
+  environment: sss
+  region: va7
+  phase: Running
+  status: Active
+  tags:
+    onboarding: "on"
+    scaling: "on"
+  virtualnetworks:
+    - id: d114e1c5-d16f-4ac1-a42a-a27192620003
+      cidrs:
+        - 10.19.208.0/20
+  allowedonboardingteams:
+    - name: aep_uis
+      ldapgroups:
+        - DX_UNIFIED_IDENTITY_SERVICES_USERS:0a4b9dcd-2667-4338-ae15-8d7d5daff58d
